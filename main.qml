@@ -53,7 +53,6 @@ ApplicationWindow {
                 text: '<b>'+modelData+'</b>'
                 font.pixelSize: app.fs
                 onClicked: {
-                    opacity=0.65
                     run(modelData)
                 }
             }
